@@ -1,0 +1,210 @@
+body {
+    margin:10px 0px 0px 10px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+
+}
+
+.container1{
+display:flex;
+width:95vw;
+height:46vw;
+box-shadow: 5px 5px 20px;
+border: solid lightgrey 1px;
+
+}
+
+    .box1green{
+        background-color: #31A989;
+        width:520px;
+        color:white;
+        
+        /* border:solid blue 3px;  */
+        display: flex;
+        flex-direction: column;
+       
+
+
+       
+    }
+        .box1green__top{
+            /*display: flex;*/
+           /*  border:solid red 3px;  */
+        }
+            .box1green__top__logo{
+                
+                /* border:solid rgb(129, 6, 92) 3px;    */       
+                
+            }
+
+        .box1green__mid{
+         /*  border: solid bisque 2px;   */
+        height: 270px;
+        }
+
+        .box1green__bottom{
+            /* border: solid rgb(235, 113, 229) 4px;   */
+            
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+          
+            
+            height: 300px;
+            width: 400px;
+            }
+
+
+            .box1green__bottom__mail{
+                
+                /*  border:solid blueviolet 3px;  */
+                 margin-top: 25px;
+                 
+              
+                /*  position: absolute; 
+                bottom: 205px;
+                left: 30px; */
+                
+                
+                
+            }
+            .box1green__bottom__phone{
+                
+                /* border:solid rgb(0, 238, 255) 3px;  */
+               /*  position: absolute;
+                bottom:150px;
+                left: 30px; */
+                margin-top: 25px;
+                
+            }
+            .box1green__bottom__findme{
+                
+                /* border:solid greenyellow 3px;  */
+               /*  position: absolute;
+                bottom:115px;
+                left: 30px; */
+                margin-top: 25px;
+                
+            }
+            .box1green__bottom__sociallogo{
+                
+                /* border:solid darkred 3px; */
+                /* position: absolute;
+                bottom:70px;
+                left: 30px; */
+               
+                margin-top: 15px;
+                
+                
+            }
+
+
+    .box2white{
+        /* border:solid black 3px; */
+        width: 950px;
+        background-color: white;
+        margin-left: -90px;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+      
+    }
+
+        .box2white__hamburger{
+        /* position: absolute;
+        right: 100px;
+        top:20px */
+        /* border:solid red 3px; */
+        justify-content: flex-end;
+        margin-right: 20px;
+        margin-top: 10px;
+        }
+
+        .box2white__text{
+           /*  position: absolute;
+            left: 730px;
+            top:225px;
+            right: 300px; */
+            /* border:solid blue 3px; */
+            width: 500px;
+            /*align-self:center;*/
+            margin-top:180px;
+            margin-right: 165px;
+            
+           
+        }
+            #lastname {
+                color:#31A989;
+            }
+            
+
+            button {
+                border-radius: 70px;
+                border-color:  #31A989;
+                height: 50px;
+                width: 100px;
+                margin-top: 30px;
+            }
+
+            button#portfolio{
+                margin-left: 20px;
+                background-color: #31A989;
+                color:white;
+            }
+
+            button#portfolio:hover{               
+            
+                background: -webkit-linear-gradient(94deg, rgb(49, 169, 137), rgb(255, 196, 236));
+                background: linear-gradient(94deg, rgb(49, 169, 137), rgb(255, 196, 236));
+            }
+                    
+           
+            button#resume{
+                margin-left: 20px;
+                background-color: white;
+            }
+
+            button#resume:hover{
+            color:white;    
+            background: -webkit-linear-gradient(94deg, rgb(49, 169, 137), rgb(255, 196, 236));
+                background: linear-gradient(94deg, rgb(49, 169, 137), rgb(255, 196, 236));
+            }
+
+    .box3image{
+        /* border:solid orange 4px; */
+       position: absolute;
+       margin-left:300px;
+       align-self: center;
+       
+        
+        
+      
+        /* position:absolute;
+       left:250px;
+       top:20px; */
+      
+      
+      
+    }
+
+        img#imgkaat{
+        width:300px;
+        z-index: +2;
+        
+        }
+
+         .line {
+             background-color:#31A989 ;
+             width: 140px;
+             height: 8px;
+             position:absolute;
+             top:263px;
+             left:250px;
+             z-index:+2;
+
+
+         }
+
+    

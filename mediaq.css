@@ -1,0 +1,80 @@
+body {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+    width: 100%;
+}
+
+
+/* smartphone */
+@media all and (max-width:300px) {
+
+    body{
+        display: flex;
+    }
+
+    #small{
+        background-color: grey;
+        
+    }    
+    
+    #medium{
+        background-color: green;
+        width: 30%;
+        margin-left: -100%;
+    }
+    
+    #large{
+        background-color: blue;
+        width: 30%;
+        margin-left: -100%;
+    }
+    
+
+}
+
+/* tablet */
+@media (min-width:301px) and (max-width:700px) {
+
+    body{display: flex; flex-wrap: wrap;}
+
+    #small{
+        background-color: red;
+        width: 66%;
+        
+    }    
+    
+    #medium{
+        background-color: grey;
+        width: 33%;
+    }
+    
+    #large{
+        background-color: blue;
+        width:100%;
+        flex-wrap: wrap;
+    }
+    
+
+}
+/* desktop */
+@media (min-width:701px)  {
+    body{display: flex; }
+
+    #small{
+        background-color: red;
+        width: 35vw;
+    }    
+    
+    #medium{
+        background-color: green;
+        width: 35vw;
+    }
+    
+    #large{
+        background-color: grey;
+        width: 35vw;
+    }
+    
+
+}
